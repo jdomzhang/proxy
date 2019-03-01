@@ -16,11 +16,11 @@ Proxy listening on :7777 ...
 ## in Bash:
 
 ```
-export HTTP_PROXY="http://proxyIp:proxyPort"
+export HTTP_PROXY="http://localhost:7777"
 ```
 
 ## in Go code
 
 ```
-os.Setenv("HTTP_PROXY", "http://proxyIp:proxyPort")
+os.Setenv("HTTP_PROXY", "http://localhost:7777")
 ```
